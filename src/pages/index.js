@@ -1,7 +1,9 @@
+import Home from '../layout/Home';
+
 const Default = () => (
-    <div>
-        App De David
-    </div>
-  );
-  
-  export default Default;
+  <div>
+    <Home />
+  </div>
+);
+
+export default Default;

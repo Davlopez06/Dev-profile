@@ -14,7 +14,7 @@ module.exports = {
     rules: {
       "no-console": "error",
       "no-param-reassign": ["error", { "props": false }],
-      "no-use-before-define": "off",
+      "no-use-before-define": "error",
       "newline-before-return": "error",
       "no-empty-function": "error",
       "no-var": "error",
@@ -26,5 +26,14 @@ module.exports = {
         'warn',
         { allowConstantExport: true },
       ],
+      'comma-dangle': ['error', 'always-multiline'],
+      'max-len': ['error', { code: 140 }],
+      'import/no-extraneous-dependencies': ['off', { devDependencies: true }],
+      "import/extensions": ["off"],
+      "no-underscore-dangle": "error",
+      "template-curly-spacing" : "error",
+      "indent": ["error", 2, { SwitchCase: 1 }],
+      "spaced-comment": ["error", "always", { exceptions: ["*"] }],
+      "quotes": ["error", "single", { "allowTemplateLiterals": true }],
     },
   }

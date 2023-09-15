@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import Head from 'next/head';
 import Script from 'next/script';
+import './_app.scss'
 
 const MyApp = ({ Component, pageProps }) => (
   <>
