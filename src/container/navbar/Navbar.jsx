@@ -45,7 +45,7 @@ const Navbar = () => {
     if (showMenu)
       return {
         transform: 'translateX(0)',
-        minHeight: `calc(100vh - ${getHeight()}px)`,
+        minHeight: `calc(100vh - ${getHeight()}px)`
       };
 
     return {};
