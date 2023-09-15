@@ -33,5 +33,14 @@
     "hooks": {
       "pre-commit": "npx lint-staged && npm run lint"
     }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "src/**/*.{css,scss,md,json}": [
+      "prettier --write"
+    ]
   }
 }
