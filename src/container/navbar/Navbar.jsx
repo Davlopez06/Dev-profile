@@ -1,12 +1,13 @@
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import NavbarInfo from '../../datalist/navbarOptions.json';
 import useWindowSize from '../../utils/useWindowSize';
 import SideMenuIcon from '../../asets/icons/SideMenuIcon';
 import style from './Navbar.module.scss';
 
 const Navbar = () => {
-  const { isMobile, isTablet } = useWindowSize();
+  const [isNoDesktop, setIsNoDesktop] = useState(true);
   const [showMenu, setShowMenu] = useState(false);
+  const { isDesktop } = useWindowSize();
   const mobileItemRef = useRef(null);
 
   function goToId(id) {
@@ -19,7 +20,7 @@ const Navbar = () => {
   }
 
   const getMenuIcon = () => {
-    if (!isMobile && !isTablet) return null;
+    if (!isNoDesktop) return null;
     const sideMenuStyle = showMenu ? { background: '#F4F6F7' } : {};
 
     return (
@@ -75,8 +76,13 @@ const Navbar = () => {
     </div>
   );
 
-  const isMobileNavabar =
-    isMobile || isTablet ? getMobileNavbarItems() : getNavbarItems();
+  const isMobileNavabar = isNoDesktop
+    ? getMobileNavbarItems()
+    : getNavbarItems();
+
+  useEffect(() => {
+    setIsNoDesktop(!isDesktop);
+  }, [isDesktop]);
 
   return (
     <div className={style.navbar}>
