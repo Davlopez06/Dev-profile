@@ -34,22 +34,16 @@ const Navbar = () => {
     );
   };
 
-  const getHeight = () => {
-    if (mobileItemRef.current) {
-      return mobileItemRef.current.clientHeight;
-    }
-
-    return 0;
-  };
-
   const navbarMobileStyle = () => {
     if (showMenu)
       return {
         transform: 'translateX(0)',
-        minHeight: `calc(100vh - ${getHeight()}px)`,
+        minHeight: `calc(100vh - 60px)`
       };
 
-    return {};
+    return {
+      minHeight: `calc(100vh - 60px)`
+    };
   };
 
   const getNavbarItems = () => {

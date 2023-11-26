@@ -1,8 +1,11 @@
 .navbar {
   background: #fbfcfc;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   padding: 10px 0;
-  position: relative;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 
   &MenuIcon {
     display: flex;
@@ -78,6 +81,7 @@
       font-family: 'Pacifico-Regular', sans-serif;
       border-right: 1px solid #d5d5d5;
       font-size: 22px;
+      color: #1f1f1f;
 
       &:last-child {
         border-right: none;

@@ -1,0 +1,29 @@
+.deck {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 130%;
+  max-width: 1232px;
+  padding: 0 16px;
+  margin: 0 auto 12px auto;
+  transform: translateX(0);
+  opacity: 1;
+  transition: all ease-in-out 1s;
+}
+
+.no-visible {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 130%;
+  max-width: 1232px;
+  padding: 0 16px;
+  margin: 0 auto 12px auto;
+  transform: translateX(-100vw);
+  opacity: 0;
+  transition: all ease-in-out 1s;
+}
+
+@media screen and (min-width: 992px) {
+  .deck {
+    font-size: 18px;
+  }
+}
