@@ -19,7 +19,7 @@ const Skills = () => {
   };
 
   return (
-    <div id="Habilidades">
+    <div className={style.skills} id="Habilidades">
       <Title text={title} />
       {getDeck()}
       <div className={style['skills-container']}>{getSkills()}</div>

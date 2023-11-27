@@ -1,0 +1,109 @@
+.carousel {
+  display: flex;
+  gap: 10px;
+  margin: 0 auto 12px auto;
+  max-width: 1532px;
+  opacity: 1;
+  transition: all ease-in-out 1s;
+}
+
+.no-visible {
+  display: flex;
+  gap: 10px;
+  opacity: 0;
+  transition: all ease-in-out 1s;
+
+  &-description {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 130%;
+    margin: 0 auto 12px auto;
+    max-height: 100px;
+    max-width: 1532px;
+    overflow: hidden;
+    padding: 0 16px;
+    text-overflow: ellipsis;
+    white-space: wrap;
+    transform: translateX(-100vw);
+    opacity: 0;
+    transition: all ease-in-out 1s;
+  }
+
+  &-button {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 130%;
+    max-width: max-content;
+    padding: 8px 20px;
+    border: 1px solid #d5d5d5;
+    border-radius: 9px;
+    background: transparent;
+    transform: scale(0);
+    transition: all ease-in-out 1s;
+  }
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-content {
+  overflow: hidden;
+  flex: 1;
+}
+
+.carousel-slider {
+  display: flex;
+  gap: 20px;
+  transition: all ease-in-out 1s;
+}
+
+.carousel-item {
+  border: 1px solid #d5d5d5;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.carousel-item-description {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 130%;
+  margin: 0 auto 12px auto;
+  max-height: 100px;
+  max-width: 1532px;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 16px;
+  text-overflow: ellipsis;
+  transform: translateX(0);
+  transition: all ease-in-out 1s;
+  white-space: wrap;
+}
+
+.carousel-item-button {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 130%;
+  max-width: max-content;
+  padding: 8px 20px;
+  border: 1px solid #d5d5d5;
+  border-radius: 9px;
+  background: transparent;
+  transform: scale(1);
+  transition: all ease-in-out 1s;
+}
+
+@media screen and (min-width: 992px) {
+  .carousel {
+    margin: 0 auto 20px auto;
+    max-width: 1532px;
+  }
+}
