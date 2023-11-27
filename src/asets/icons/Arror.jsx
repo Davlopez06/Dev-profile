@@ -16,7 +16,7 @@ const Arrow = ({ direction = 'left' }) => (
 );
 
 Arrow.propTypes = {
-  direction: PropTypes.string
+  direction: PropTypes.string,
 };
 
 export default Arrow;

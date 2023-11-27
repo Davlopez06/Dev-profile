@@ -20,7 +20,7 @@ const Carousel = ({ project = [], subtitle = '' }) => {
   const getStyleItem = () => ({
     width: getWidthItem(),
     minWidth: getWidthItem(),
-    maxWidth: getWidthItem()
+    maxWidth: getWidthItem(),
   });
 
   const getVisibleClass = (classVisble, extraclass = '') => {
@@ -65,7 +65,7 @@ const Carousel = ({ project = [], subtitle = '' }) => {
         window.innerHeight || document.documentElement.clientHeight;
       setIsVisible(
         (rect.top >= 0 || rect.bottom >= 0) &&
-          (rect.top <= windowHeight || rect.bottom <= windowHeight)
+          (rect.top <= windowHeight || rect.bottom <= windowHeight),
       );
     }
     setItemWidth(content?.current?.clientWidth);
@@ -94,7 +94,7 @@ const Carousel = ({ project = [], subtitle = '' }) => {
 
 Carousel.propTypes = {
   project: PropTypes.array,
-  subtitle: PropTypes.string
+  subtitle: PropTypes.string,
 };
 
 export default Carousel;

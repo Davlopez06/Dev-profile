@@ -14,7 +14,7 @@ const Deck = ({ text = '' }) => {
         window.innerHeight || document.documentElement.clientHeight;
       setIsVisible(
         (rect.top >= 0 || rect.bottom >= 0) &&
-          (rect.top <= windowHeight || rect.bottom <= windowHeight)
+          (rect.top <= windowHeight || rect.bottom <= windowHeight),
       );
     }
   };
@@ -35,7 +35,7 @@ const Deck = ({ text = '' }) => {
 };
 
 Deck.propTypes = {
-  text: PropTypes.string
+  text: PropTypes.string,
 };
 
 export default Deck;
