@@ -1,0 +1,51 @@
+.education-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0 auto 12px auto;
+  max-width: 1532px;
+  padding: 0 16px;
+}
+
+.education {
+  border-radius: 9px;
+  border: 1px solid #d5d5d5;
+  overflow: hidden;
+  padding: 12px 8px;
+}
+
+.training-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0 auto 12px auto;
+  max-width: 1532px;
+  padding: 0 16px;
+}
+
+.training {
+  border-radius: 9px;
+  border: 1px solid #d5d5d5;
+  overflow: hidden;
+  padding: 12px 8px;
+}
+
+@media screen and (min-width: 992px) {
+  .education-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 0 auto 20px auto;
+    padding: 0 16px;
+  }
+
+  .training-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 0 auto 20px auto;
+    padding: 0 16px;
+  }
+}

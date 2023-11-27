@@ -1,9 +1,9 @@
+import { useRef, useState } from 'react';
 import PropTypes from 'prop-types';
 import useWindowScrollResize from '../../utils/useWindowScrollResize';
-import { useRef, useState } from 'react';
-import style from './Title.module.scss';
+import style from './Subtitle.module.scss';
 
-const Title = ({ text = '' }) => {
+const Subtitle = ({ text = '' }) => {
   const [isVisible, setIsVisible] = useState(false);
   const title = useRef(null);
 
@@ -28,14 +28,14 @@ const Title = ({ text = '' }) => {
   useWindowScrollResize(verificateVisibility, title);
 
   return (
-    <h2 className={style[getVisibleClass('title')]} ref={title}>
+    <h2 className={style[getVisibleClass('subtitle')]} ref={title}>
       {text}
     </h2>
   );
 };
 
-Title.propTypes = {
+Subtitle.propTypes = {
   text: PropTypes.string
 };
 
-export default Title;
+export default Subtitle;

@@ -1,0 +1,43 @@
+{
+  "education": [
+    {
+      "subtitle": "Ingenieria de Sistemas: ITM",
+      "start": "01/02/2023",
+      "end": "Actual",
+      "deck": [
+        "Estudié Ingeniería de Sistemas en el Instituto Tecnológico Metropolitano (ITM) en la ciudad de Medellín, Colombia. Durante mi tiempo en esta prestigiosa institución, adquirí conocimientos sólidos y habilidades prácticas en el campo de la ingeniería de sistemas. El ITM proporcionó un ambiente de aprendizaje enriquecedor, donde tuve la oportunidad de explorar diversas áreas de la informática y desarrollar un entendimiento profundo de conceptos clave relacionados con el diseño, desarrollo y gestión de sistemas de información. Esta experiencia académica ha sido fundamental en mi formación como profesional en el campo de la tecnología y ha contribuido significativamente a mi desarrollo personal y profesional."
+      ]
+    },
+    {
+      "subtitle": "Tecnologia en Desarrollo de software: ITM",
+      "start": "01/02/2019",
+      "end": "05/12/2022",
+      "deck": [
+        "Realicé estudios en Tecnología en Desarrollo de Software en el Instituto Tecnológico Metropolitano (ITM) ubicado en la ciudad de Medellín, Colombia. Durante mi tiempo en esta institución, me sumergí en un programa académico integral que me proporcionó una base sólida en el ámbito del desarrollo de software. El ITM ofreció un entorno educativo enriquecedor donde tuve la oportunidad de explorar conceptos fundamentales de programación, diseño de aplicaciones y metodologías de desarrollo, todo ello con un enfoque práctico y actualizado.",
+        "Este programa no solo me brindó conocimientos técnicos, sino que también me permitió desarrollar habilidades clave para enfrentar desafíos en el mundo del desarrollo de software. A través de este proceso educativo, adquirí una comprensión profunda de las tecnologías actuales y metodologías ágiles utilizadas en la industria, sentando así las bases para mi crecimiento y desarrollo profesional en el campo tecnológico."
+      ]
+    }
+  ],
+  "training": [
+    {
+      "subtitle": "Full stack: Henry",
+      "start": "10/06/2022",
+      "end": "11/10/2022",
+      "deck": [
+        "Me formé en Henry, donde realicé un curso intensivo de Desarrollo Full Stack. Durante este programa educativo, adquirí conocimientos exhaustivos en el desarrollo de aplicaciones web desde la perspectiva tanto del front-end como del back-end. Henry ofreció un riguroso plan de estudios que abarcaba diversas tecnologías, metodologías y herramientas de vanguardia.",
+        "Durante este curso intensivo, tuve la oportunidad de profundizar en áreas como el desarrollo con JavaScript, manejo de bases de datos, diseño de interfaces de usuario, implementación de servidores y más. La metodología práctica y orientada a proyectos de Henry me permitió obtener habilidades esenciales para enfrentar desafíos reales en el campo del desarrollo de software.",
+        "Esta experiencia en Henry ha sido fundamental en mi trayectoria profesional, brindándome una base sólida y actualizada en el ámbito del desarrollo Full Stack."
+      ]
+    },
+    {
+      "subtitle": "Master en Javascript: Udemy",
+      "start": "01/01/2022",
+      "end": "30/04/2022",
+      "deck": [
+        "Completé exitosamente un curso de JavaScript en la plataforma Udemy. Este curso fue una experiencia enriquecedora que me permitió sumergirme en el mundo del desarrollo utilizando este lenguaje de programación fundamental. Durante el curso, exploré conceptos desde los fundamentos básicos hasta técnicas más avanzadas, todo bajo la guía de expertos instructores.",
+        "A través de este curso en Udemy, adquirí una comprensión sólida de JavaScript, aprendiendo sobre manipulación del DOM, funciones asincrónicas, manejo de eventos, manipulación de datos y mucho más. La flexibilidad de la plataforma me permitió avanzar a mi propio ritmo y aplicar los conocimientos adquiridos en proyectos personales, lo cual consolidó mi aprendizaje.",
+        "Este curso en Udemy ha sido una piedra angular en mi camino de aprendizaje como desarrollador, brindándome una base sólida en JavaScript y proporcionándome las habilidades necesarias para desarrollar aplicaciones dinámicas y funcionales."
+      ]
+    }
+  ]
+}

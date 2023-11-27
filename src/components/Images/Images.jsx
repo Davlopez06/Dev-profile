@@ -10,7 +10,12 @@ const Images = () => {
   const verificateVisibility = () => {
     if (images.current) {
       const rect = images.current.getBoundingClientRect();
-      setIsVisible(rect.top >= 0 || rect.bottom >= 0);
+      const windowHeight =
+        window.innerHeight || document.documentElement.clientHeight;
+      setIsVisible(
+        (rect.top >= 0 || rect.bottom >= 0) &&
+          (rect.top <= windowHeight || rect.bottom <= windowHeight)
+      );
     }
   };
 

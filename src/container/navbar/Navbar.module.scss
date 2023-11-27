@@ -77,11 +77,12 @@
     }
 
     &Item {
-      padding: 0 16px;
-      font-family: 'Pacifico-Regular', sans-serif;
       border-right: 1px solid #d5d5d5;
-      font-size: 22px;
       color: #1f1f1f;
+      cursor: pointer;
+      font-family: 'Pacifico-Regular', sans-serif;
+      font-size: 22px;
+      padding: 0 16px;
 
       &:last-child {
         border-right: none;

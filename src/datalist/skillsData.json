@@ -1,0 +1,29 @@
+{
+  "title": "Habilidades Técnicas",
+  "deck": [
+    "Entre mis habilidades más destacadas se encuentran React, JavaScript, HTML, CSS, SCSS y Google Apps Script, las cuales considero que son mis puntos fuertes. Asimismo, poseo experiencia significativa en Node.js, Express, Angular, Next.js, Google Cloud, Git, MongoDB y TypeScript.",
+    "Aunque no tan profundas como las anteriores, también cuento con conocimientos en MySQL, SQL Server, Docker, Java, C#, y Python, aunque considero que aún estoy en proceso de perfeccionamiento en estas áreas."
+  ],
+  "skills": [
+    { "name": "React", "value": 80, "color": "#61DAFB" },
+    { "name": "JavaScript", "value": 75, "color": "#F7DF1E" },
+    { "name": "HTML", "value": 74, "color": "#E44D26" },
+    { "name": "CSS", "value": 74, "color": "#264DE4" },
+    { "name": "SCSS", "value": 80, "color": "#CD6799" },
+    { "name": "Apps Script", "value": 73, "color": "#F5BB00" },
+    { "name": "Node.js", "value": 68, "color": "#68A063" },
+    { "name": "Express", "value": 68, "color": "#000000" },
+    { "name": "Angular", "value": 65, "color": "#DD0031" },
+    { "name": "Next.js", "value": 70, "color": "#000000" },
+    { "name": "Google Cloud", "value": 64, "color": "#4285F4" },
+    { "name": "Git", "value": 63, "color": "#F05133" },
+    { "name": "MongoDB", "value": 60, "color": "#4DB33D" },
+    { "name": "TypeScript", "value": 65, "color": "#3178C6" },
+    { "name": "MySQL", "value": 55, "color": "#00758F" },
+    { "name": "SQL Server", "value": 59, "color": "#CC2927" },
+    { "name": "Docker", "value": 50, "color": "#0DB7ED" },
+    { "name": "Java", "value": 47, "color": "#ED8B00" },
+    { "name": "C#", "value": 45, "color": "#68217A" },
+    { "name": "Python", "value": 40, "color": "#306998" }
+  ]
+}

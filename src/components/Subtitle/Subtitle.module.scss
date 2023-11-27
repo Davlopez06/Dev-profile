@@ -1,7 +1,7 @@
-.deck {
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 130%;
+.subtitle {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 100%;
   max-width: 1532px;
   padding: 0 16px;
   margin: 0 auto 12px auto;
@@ -11,25 +11,25 @@
 }
 
 .no-visible {
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 130%;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 100%;
   max-width: 1532px;
   padding: 0 16px;
   margin: 0 auto 12px auto;
-  transform: translateX(-100vw);
+  transform: translateX(100vw);
   opacity: 0;
   transition: all ease-in-out 1s;
 }
 
 @media screen and (min-width: 992px) {
-  .deck {
-    font-size: 22px;
+  .subtitle {
+    font-size: 28px;
     margin: 0 auto 20px auto;
   }
 
   .no-visible {
-    font-size: 22px;
+    font-size: 28px;
     margin: 0 auto 20px auto;
   }
 }

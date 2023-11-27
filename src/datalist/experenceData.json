@@ -1,0 +1,33 @@
+{
+  "experence": [
+    {
+      "subtitle": "Infobae: Full Stack",
+      "start": "28/11/2022",
+      "end": "Actual",
+      "deck": [
+        "Durante mi tiempo en Infobae, mi principal área de experiencia ha sido el desarrollo frontend, donde he destacado al trabajar tanto en la optimización de componentes existentes en términos de estilos y funcionalidad, como en la creación de nuevos elementos. Las tecnologías dominantes durante mi etapa en Infobae han sido React y SCSS, junto con sus respectivas librerías. Además, he tenido oportunidades de colaborar con Next.js y Angular para el frontend, así como con Node.js para el backend.",
+        "Mi trabajo también implicó el uso frecuente de Google Apps Script para transferir datos desde plantillas de Excel hacia una API intermedia y consumirlos en el frontend. Además, hemos aprovechado servicios en la nube como AWS, Google Cloud y GitHub para mejorar la colaboración en equipo.",
+        "Además de mi enfoque técnico, he fortalecido mis habilidades de trabajo en equipo y comunicación, colaborando estrechamente con mis compañeros durante mi trayectoria en Infobae"
+      ]
+    },
+    {
+      "subtitle": "Henry: Full Stack",
+      "start": "10/06/2022",
+      "end": "11/10/2022",
+      "deck": [
+        "Durante mi tiempo en Henry, tuve la oportunidad de adquirir diversas habilidades como desarrollador full stack, gracias a la participación en una amplia gama de proyectos que abarcaban numerosas tecnologías. Entre ellas se destacan React, HTML, CSS, Redux, Node.js, Express, MongoDB, PostgreSQL, además de diversas bibliotecas adicionales. Esta experiencia fue fundamental para adquirir conocimientos en proyectos de gran envergadura, permitiéndome mejorar mis habilidades técnicas y de comunicación en equipo.",
+        "En este contexto, pude fortalecer mis competencias trabajando en proyectos de gran calibre, mejorando notablemente mi capacidad para colaborar eficientemente en equipo a través de plataformas como GitHub, además de adquirir experiencia en la metodología ágil Scrum. Henry fue el entorno perfecto para ampliar mi experiencia y habilidades como desarrollador full stack, proporcionándome un aprendizaje invaluable que ha sido fundamental en mi trayectoria profesional."
+      ]
+    },
+    {
+      "subtitle": "H2A: Frontend",
+      "start": "28/10/2021",
+      "end": "29/04/2022",
+      "deck": [
+        "Durante mi período en H2A, tuve la oportunidad de sumergirme en el mundo del desarrollo y adquirir un valioso conocimiento. Mi enfoque principal fue la creación de maquetas para clientes, utilizando únicamente JavaScript, HTML y CSS, prescindiendo de bibliotecas como React o Angular. Esta experiencia resultó invaluable para solidificar mis fundamentos como desarrollador frontend.",
+        "Además, durante mi tiempo allí, tuve algunos acercamientos con PHP y MySQL, aunque en un nivel más básico. Estas incursiones me proporcionaron una visión general sobre estas tecnologías, aunque mi principal enfoque se mantuvo en el desarrollo frontend utilizando las bases de JavaScript, HTML y CSS.",
+        "Mi paso por H2A fue crucial en mi trayectoria, ya que me permitió consolidar mis habilidades fundamentales como desarrollador frontend y obtener una comprensión inicial de tecnologías back-end como PHP y MySQL."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+@media screen and (min-width: 992px) {
+  .skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1532px;
+    margin: 0 auto;
+  }
+}

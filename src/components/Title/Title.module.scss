@@ -1,8 +1,8 @@
 .title {
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 100%;
-  max-width: 1232px;
+  max-width: 1532px;
   padding: 0 16px;
   margin: 0 auto 12px auto;
   transform: translateX(0);
@@ -12,9 +12,9 @@
 
 .no-visible {
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 100%;
-  max-width: 1232px;
+  max-width: 1532px;
   padding: 0 16px;
   margin: 0 auto 12px auto;
   transform: translateX(100vw);
@@ -25,5 +25,11 @@
 @media screen and (min-width: 992px) {
   .title {
     font-size: 32px;
+    margin: 0 auto 20px auto;
+  }
+
+  .no-visible {
+    font-size: 32px;
+    margin: 0 auto 20px auto;
   }
 }

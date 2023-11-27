@@ -29,7 +29,7 @@ const Navbar = () => {
           onClick={() => setShowMenu(!showMenu)}
           style={sideMenuStyle}
         />
-        <p>Welcome to my dev profile</p>
+        <p>¡Bienvenido a mi perfil de desarrollador!</p>
       </div>
     );
   };
