@@ -47,7 +47,7 @@
             "Mira mi proyecto:"
           ],
           "images": "",
-          "video": "https://www.youtube.com/watch?v=keG8ClPjraA",
+          "video": "https://www.youtube.com/embed/keG8ClPjraA",
           "url": ""
         },
         {
@@ -58,7 +58,7 @@
             "Mira mi proyecto:"
           ],
           "images": "",
-          "video": "https://vimeo.com/765897676?share=copy",
+          "video": "https://player.vimeo.com/video/765897676",
           "url": "https://pokemaster-ashy.vercel.app/home",
           "repositorio": "https://github.com/Davlopez06/PokeMaster"
         },
@@ -70,7 +70,7 @@
             "Mira mi proyecto:"
           ],
           "images": "",
-          "video": "https://vimeo.com/752749566?share=copy",
+          "video": "https://player.vimeo.com/video/752749566",
           "url": "",
           "repositorio": "https://github.com/Davlopez06/PI-FOOD"
         },
@@ -94,7 +94,7 @@
             "Mira mi proyecto:"
           ],
           "images": "",
-          "video": "",
+          "video": "https://portfolio-seven-roan-37.vercel.app/",
           "url": "https://portfolio-seven-roan-37.vercel.app/",
           "repositorio": "https://github.com/Davlopez06/Portfolio"
         }

@@ -3,8 +3,20 @@ import PropTypes from 'prop-types';
 import Subtitle from '../Subtitle';
 import Carousel from '../Carousel';
 
-const Project = ({ subtitle = '', project = '' }) => {
-  const getCarousel = () => <Carousel project={project} subtitle={subtitle} />;
+const Project = ({
+  project = '',
+  setModalInfo,
+  setShowModal,
+  subtitle = '',
+}) => {
+  const getCarousel = () => (
+    <Carousel
+      project={project}
+      setModalInfo={setModalInfo}
+      setShowModal={setShowModal}
+      subtitle={subtitle}
+    />
+  );
 
   return (
     <div>
@@ -15,8 +27,10 @@ const Project = ({ subtitle = '', project = '' }) => {
 };
 
 Project.propTypes = {
-  subtitle: PropTypes.string,
   project: PropTypes.array,
+  setModalInfo: PropTypes.func.isRequired,
+  setShowModal: PropTypes.func.isRequired,
+  subtitle: PropTypes.string,
 };
 
 export default Project;

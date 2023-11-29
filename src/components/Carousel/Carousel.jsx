@@ -6,7 +6,12 @@ import useWindowScrollResize from '../../utils/useWindowScrollResize';
 import useWindowSize from '../../utils/useWindowSize';
 import style from './Carousel.module.scss';
 
-const Carousel = ({ project = [], subtitle = '' }) => {
+const Carousel = ({
+  project = [],
+  setModalInfo,
+  setShowModal,
+  subtitle = '',
+}) => {
   const [itemWidth, setItemWidth] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
   const [activeIndex, setActiveIndex] = useState(0);
@@ -32,6 +37,11 @@ const Carousel = ({ project = [], subtitle = '' }) => {
     if (!isVisible) return `no-visible${extraclass}`;
 
     return classVisble;
+  };
+
+  const handleBurron = project => {
+    setShowModal(true);
+    setModalInfo({ ...project });
   };
 
   const getItems = () =>
@@ -62,6 +72,7 @@ const Carousel = ({ project = [], subtitle = '' }) => {
               background: pro.color.replace('b2', ''),
               border: `1px solid ${pro.color.replace('b2', '')}`,
             }}
+            onClick={() => handleBurron(pro)}
           >
             Ver
           </button>
@@ -169,6 +180,8 @@ const Carousel = ({ project = [], subtitle = '' }) => {
 
 Carousel.propTypes = {
   project: PropTypes.array,
+  setModalInfo: PropTypes.func.isRequired,
+  setShowModal: PropTypes.func.isRequired,
   subtitle: PropTypes.string,
 };
 
