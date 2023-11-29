@@ -38,11 +38,11 @@ const Navbar = () => {
     if (showMenu)
       return {
         transform: 'translateX(0)',
-        minHeight: `calc(100vh - 60px)`
+        minHeight: `calc(100vh - 60px)`,
       };
 
     return {
-      minHeight: `calc(100vh - 60px)`
+      minHeight: `calc(100vh - 60px)`,
     };
   };
 

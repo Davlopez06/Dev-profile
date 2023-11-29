@@ -1,0 +1,40 @@
+.contactme {
+  padding-bottom: 12px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  a {
+    max-width: 40px;
+    transform: scale(1);
+    transition: all ease-in-out 1s;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.no-visible {
+  a {
+    max-width: 40px;
+    transform: scale(0);
+    transition: all ease-in-out 1s;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .contactme {
+    padding-bottom: 20px;
+  }
+}

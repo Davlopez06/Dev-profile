@@ -1,3 +1,5 @@
+import AboutMe from '../container/aboutMe';
+import ContactMe from '../container/contactMe';
 import Education from '../container/education';
 import Experence from '../container/experence';
 import Navbar from '../container/navbar';
@@ -14,7 +16,8 @@ const Home = () => {
       <Education />
       <Skills />
       <Projects />
-      Area dev david
+      <AboutMe />
+      <ContactMe />
     </div>
   );
 };

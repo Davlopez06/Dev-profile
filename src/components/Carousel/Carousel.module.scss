@@ -13,6 +13,18 @@
   opacity: 0;
   transition: all ease-in-out 1s;
 
+  &-name {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 130%;
+    max-width: 1532px;
+    padding: 0 16px;
+    margin: 0 auto 12px auto;
+    transform: translateX(-100vw);
+    opacity: 0;
+    transition: all ease-in-out 1s;
+  }
+
   &-description {
     font-size: 14px;
     font-weight: 300;
@@ -30,23 +42,49 @@
   }
 
   &-button {
+    background: transparent;
+    border-radius: 9px;
+    border: none;
     font-size: 14px;
     font-weight: 300;
     line-height: 130%;
     max-width: max-content;
     padding: 8px 20px;
-    border: 1px solid #d5d5d5;
-    border-radius: 9px;
-    background: transparent;
     transform: scale(0);
     transition: all ease-in-out 1s;
   }
 }
 
-.arrow {
-  display: flex;
-  justify-content: center;
+.arrowRigth {
   align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: max-content;
+  justify-content: center;
+  margin: auto 0;
+
+  &:active {
+    svg {
+      transform: scale(1.2);
+      background: transparent;
+    }
+  }
+}
+.arrowLeft {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: max-content;
+  justify-content: center;
+  margin: auto 0;
+  transform: rotate(180deg);
+
+  &:active {
+    svg {
+      transform: scale(1.2);
+      background: transparent;
+    }
+  }
 }
 
 .carousel-content {
@@ -72,6 +110,18 @@
   overflow: hidden;
 }
 
+.carousel-item-name {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 130%;
+  max-width: 1532px;
+  padding: 0 16px;
+  margin: 0 auto 12px auto;
+  transform: translateX(0);
+  opacity: 1;
+  transition: all ease-in-out 1s;
+}
+
 .carousel-item-description {
   font-size: 14px;
   font-weight: 300;
@@ -89,21 +139,38 @@
 }
 
 .carousel-item-button {
+  background: transparent;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
   font-size: 14px;
   font-weight: 300;
   line-height: 130%;
   max-width: max-content;
   padding: 8px 20px;
-  border: 1px solid #d5d5d5;
-  border-radius: 9px;
-  background: transparent;
   transform: scale(1);
   transition: all ease-in-out 1s;
+
+  &:hover {
+    background: #fff !important;
+  }
 }
 
 @media screen and (min-width: 992px) {
   .carousel {
     margin: 0 auto 20px auto;
     max-width: 1532px;
+  }
+
+  .carousel-item-name {
+    font-size: 22px;
+    margin: 0 auto 20px auto;
+  }
+
+  .no-visible {
+    &-name {
+      font-size: 22px;
+      margin: 0 auto 20px auto;
+    }
   }
 }

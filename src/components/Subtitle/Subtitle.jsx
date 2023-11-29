@@ -14,7 +14,7 @@ const Subtitle = ({ text = '' }) => {
         window.innerHeight || document.documentElement.clientHeight;
       setIsVisible(
         (rect.top >= 0 || rect.bottom >= 0) &&
-          (rect.top <= windowHeight || rect.bottom <= windowHeight)
+          (rect.top <= windowHeight || rect.bottom <= windowHeight),
       );
     }
   };
@@ -35,7 +35,7 @@ const Subtitle = ({ text = '' }) => {
 };
 
 Subtitle.propTypes = {
-  text: PropTypes.string
+  text: PropTypes.string,
 };
 
 export default Subtitle;

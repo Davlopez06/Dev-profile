@@ -6,27 +6,30 @@
       "project": [
         {
           "name": "Elecciones Paso 2023",
+          "color": "#ffb6c1b2",
           "description": [
             "Participar en el proyecto 'Elecciones Paso para Argentina' dentro de mi empresa fue una experiencia enriquecedora que me permitió expandir mis habilidades como desarrollador frontend. Esta oportunidad me brindó la posibilidad de adquirir un conjunto más amplio de destrezas, descubrir y dominar nuevas funcionalidades en el código, así como desarrollar mis capacidades para trabajar bajo presión con mayor habilidad. Fue un proyecto que no solo me desafió, sino que también contribuyó significativamente a mi crecimiento y desarrollo profesional en el campo del desarrollo de software.",
-            "Mira en los proyectos que participe:"
+            "Mira en los componetes que participe:"
           ],
           "images": "elections-paso",
           "url": "https://www.infobae.com/politica/2023/11/15/resultados-elecciones-paso-2023-todos-los-datos-oficiales/"
         },
         {
           "name": "Elecciones Generales 2023",
+          "color": "#00ffffb2",
           "description": [
             "Involucrarme en las Elecciones Generales, a diferencia de las Paso, fue fundamental para mejorar tanto mis propias debilidades como las del equipo de trabajo. Esta experiencia nos permitió identificar y abordar más ágilmente los problemas, agilizando la resolución de conflictos de manera más rápida y eficiente, reduciendo así la posibilidad de errores. Fue una oportunidad valiosa que contribuyó a nuestro crecimiento y mejora continua como equipo.",
-            "Mira en los proyectos que participe:"
+            "Mira en los componetes que participe:"
           ],
           "images": "elections-general",
           "url": "https://www.infobae.com/politica/2023/11/15/resultados-elecciones-generales-2023-en-argentina-todos-los-datos-oficiales/"
         },
         {
           "name": "Elecciones Balotaje 2023",
+          "color": "#fffacdb2",
           "description": [
             "El balotaje electoral resultó considerablemente más sencillo en comparación con las otras dos instancias, dado que se redujo a la elección entre únicamente dos candidatos. Esto nos permitió cumplir con el objetivo de una manera más efectiva y directa, focalizando nuestros esfuerzos de manera más eficiente debido a la simplicidad del proceso electoral",
-            "Mira en los proyectos que participe:"
+            "Mira en los componetes que participe:"
           ],
           "images": "elections-balotaje",
           "url": "https://www.infobae.com/resultados-balotaje-2023/"
@@ -35,7 +38,67 @@
     },
     {
       "subtitle": "Mis proyectos personales",
-      "project": []
+      "project": [
+        {
+          "name": "HMovies",
+          "color": "#e6e6fab2",
+          "description": [
+            "Este fue mi primer proyecto con un equipo de trabajo, creamos un e-commerce basico donde podias ver el detalle de las peliculas y tamnien si eras administrador podias crear peliculas o borrarlas y tambien comprar pelicualas de las mejores plataformas de stream mensualemnte.",
+            "Mira mi proyecto:"
+          ],
+          "images": "",
+          "video": "https://www.youtube.com/watch?v=keG8ClPjraA",
+          "url": ""
+        },
+        {
+          "name": "PokeMaster",
+          "color": "#ffdab9b2",
+          "description": [
+            "Este fue uno de los proyectos que hice cuando sali de Henry aplicando mejoras de los ultimos proyectos pero con la mismas funcionalidades añadiendo la de borrar un pokemon. Al entrar a su url tarda un rato en carga la base de datos",
+            "Mira mi proyecto:"
+          ],
+          "images": "",
+          "video": "https://vimeo.com/765897676?share=copy",
+          "url": "https://pokemaster-ashy.vercel.app/home",
+          "repositorio": "https://github.com/Davlopez06/PokeMaster"
+        },
+        {
+          "name": "Salufood",
+          "color": "#87ceebb2",
+          "description": [
+            "Este fue mi primer proyecto como desarrollador full stack, esta basado en una aplicacion de recetas de comida saludable y te permite ver la receta, crear una receta y filtrar todas las recetas.",
+            "Mira mi proyecto:"
+          ],
+          "images": "",
+          "video": "https://vimeo.com/752749566?share=copy",
+          "url": "",
+          "repositorio": "https://github.com/Davlopez06/PI-FOOD"
+        },
+        {
+          "name": "Star Wars",
+          "color": "#98fb98b2",
+          "description": [
+            "Este proyecto fue de una prueba tecnica donde me dieron una api externa y yo solo tuve que conectar y mostrar los datos. Demora un momento en traer los datos",
+            "Mira mi proyecto:"
+          ],
+          "images": "Star-Wars",
+          "video": "",
+          "url": "https://star-wars-snowy-three.vercel.app/",
+          "repositorio": "https://github.com/Davlopez06/StarWars"
+        },
+        {
+          "name": "Primer portafolio",
+          "color": "#dcd0ffb2",
+          "description": [
+            "Este es mi primer portafolio donde comparado con este se puede ver tal vez todos los avances que he llegado a tener, te lo dejo aqui para que lo mires",
+            "Mira mi proyecto:"
+          ],
+          "images": "",
+          "video": "",
+          "url": "https://portfolio-seven-roan-37.vercel.app/",
+          "repositorio": "https://github.com/Davlopez06/Portfolio"
+        }
+      ]
     }
   ]
 }

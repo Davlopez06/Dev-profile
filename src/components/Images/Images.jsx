@@ -14,7 +14,7 @@ const Images = () => {
         window.innerHeight || document.documentElement.clientHeight;
       setIsVisible(
         (rect.top >= 0 || rect.bottom >= 0) &&
-          (rect.top <= windowHeight || rect.bottom <= windowHeight)
+          (rect.top <= windowHeight || rect.bottom <= windowHeight),
       );
     }
   };

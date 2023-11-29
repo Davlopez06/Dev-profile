@@ -15,7 +15,7 @@ const Skill = ({ skill }) => {
         window.innerHeight || document.documentElement.clientHeight;
       setIsVisible(
         (rect.top >= 0 || rect.bottom >= 0) &&
-          (rect.top <= windowHeight || rect.bottom <= windowHeight)
+          (rect.top <= windowHeight || rect.bottom <= windowHeight),
       );
     }
   };
@@ -69,7 +69,7 @@ const Skill = ({ skill }) => {
 };
 
 Skill.propTypes = {
-  skill: PropTypes.object
+  skill: PropTypes.object,
 };
 
 export default Skill;
