@@ -59,7 +59,7 @@ const Modal = ({
 
     return (
       <a className={style['modal-repo']} href={repositorio}>
-        <p>Miralo el codigo</p>
+        <p>Mira el codigo</p>
         <img src={github?.src} alt="github" />
       </a>
     );
