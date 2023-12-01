@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react';
 import style from './ContactMe.module.scss';
 import whatsapp from '../../asets/images/whatsapp.png';
-import linkedIn from '../../asets/images/linkedIn.png';
+import linkedIn from '../../asets/images/linkedin.png';
 import github from '../../asets/images/github.png';
 import email from '../../asets/images/email.png';
 import useWindowScrollResize from '../../utils/useWindowScrollResize';
