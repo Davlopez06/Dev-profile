@@ -51,6 +51,18 @@
           "url": ""
         },
         {
+          "name": "Game Master",
+          "color": "#dcd0ffb2",
+          "description": [
+            "Este es mi ultimo proyecto despues de haber trabajado un año como desarrollador full stack, la data puede demorar un poco en cargar pero tiene un correcto funcionamiento",
+            "Mira mi proyecto:"
+          ],
+          "images": "",
+          "video": "",
+          "url": "https://game-master-lime.vercel.app",
+          "repositorio": "https://github.com/Davlopez06/Game-Master-front"
+        },
+        {
           "name": "PokeMaster",
           "color": "#ffdab9b2",
           "description": [
