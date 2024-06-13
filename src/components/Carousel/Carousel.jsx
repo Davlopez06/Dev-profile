@@ -65,14 +65,7 @@ const Carousel = ({
             {pro.description[0]}
           </p>
           <button
-            className={
-              style[getVisibleClass('carousel-item-button', '-button')]
-            }
-            style={{
-              background: pro.color.replace('b2', ''),
-              border: `1px solid ${pro.color.replace('b2', '')}`,
-            }}
-            onClick={() => handleBurron(pro)}
+            className={style[getVisibleClass('carousel-item-button', '-button')]} style={{background: pro.color.replace('b2', ''), border: `1px solid ${pro.color.replace('b2', '')}` }} onClick={() => handleBurron(pro)}
           >
             Ver
           </button>
